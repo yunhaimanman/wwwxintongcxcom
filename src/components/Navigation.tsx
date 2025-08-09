@@ -3,38 +3,38 @@ import { motion } from 'framer-motion';
 
 const Navigation = () => {
   // 导航板块数据 - 包含工具、博客、资源、创客、留言
-  const navSections = [
-    {
-      title: '工具',
-      description: '精选创客实用工具，提高工作效率',
-      icon: 'fa-wrench',
-      href: '#tools'
-    },
-    {
-      title: '博客',
-      description: '分享创客经验与技术干货',
-      icon: 'fa-pen-to-square',
-      href: '#blog'
-    },
-    {
-      title: '资源',
-      description: '各类学习资料与项目资源下载',
-      icon: 'fa-cubes',
-      href: '#resources'
-    },
-    {
-      title: '创客',
-      description: '结识志同道合的创新伙伴',
-      icon: 'fa-users',
-      href: '#makers'
-    },
-    {
-      title: '留言',
-      description: '交流想法，提出建议与需求',
-      icon: 'fa-comment-dots',
-      href: '#messages'
-    }
-  ];
+   const navSections = [
+     {
+       title: '工具',
+       description: '精选创客实用工具，提高工作效率',
+       icon: 'fa-wrench',
+       href: 'https://xintongcx.com/tools'
+     },
+     {
+       title: '博客',
+       description: '分享创客经验与技术干货',
+       icon: 'fa-pen-to-square',
+       href: 'https://xintongcx.com/blog'
+     },
+     {
+       title: '资源',
+       description: '各类学习资料与项目资源下载',
+       icon: 'fa-cubes',
+       href: 'https://xintongcx.com/resources'
+     },
+     {
+       title: '创客',
+       description: '结识志同道合的创新伙伴',
+       icon: 'fa-users',
+        href: 'https://xintongcx.com/maker'
+     },
+      {
+        title: '留言',
+        description: '交流想法，提出建议与需求',
+        icon: 'fa-comment-dots',
+        href: 'https://xintongcx.com/message-board'
+     }
+   ];
 
   return (
     <motion.div 

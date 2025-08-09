@@ -51,7 +51,7 @@ const ReadingClubSection = () => {
               <div className="aspect-[2/3] rounded-lg overflow-hidden shadow-md mb-2 border border-gray-200 dark:border-gray-600 group-hover:shadow-lg transition-shadow duration-300">
                 <img 
                   src={book.coverUrl} 
-                  alt={book.title}
+                   alt={`${book.title} 书籍封面 - ${book.author} 著`}
                   className="w-full h-full object-cover"
                 />
               </div>
